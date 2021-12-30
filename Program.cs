@@ -14,7 +14,7 @@ namespace HashTable
             Console.WriteLine();
 
 
-            string paragraph = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
+            string paragraph = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid  situations";
             string[] para = paragraph.Split(" ");
             MyMapNode<int, string> hash = new MyMapNode<int, string>(para.Length);
             int key = 0;
